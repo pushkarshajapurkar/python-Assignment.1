@@ -1,0 +1,173 @@
+Ans.1 = python is an interpreted, high level and general purpose programming language. 
+ because it is easy to learn or easy to understand. It is interpreted some other languages 
+ As we know python develop in C language and which will support anything like window 
+ or linux that is gauranted by the developer. you can build webapps, write machine learning
+ algorithms, embedded system and a lot of things . 
+
+Ans.2 = In python, there is no need to define the types of variables. It allows to directly
+ use the variables as its type-checking will be done during the execution of the program. 
+ The interpreter checks the program line-by-line and also examines the data type of the variable. 
+
+Ans.3 = pros                              
+ 1.It is easy to learn and easy to code
+ 2.Python is a very readable language because of its syntax.
+ 3.Python supports procedure-oriented programming and object oriented programming. Programs built 
+   around object the merges data and functionality in object-oriented programming
+ 4.Python requires very less coding when compared to other programming languages to complete a
+   simple task
+ 5.We can embed Python within C/C++ programs to give 'scripting' capabilities for program's users.
+
+ Cons. 
+ 1. Python execution results are a bit slow as the code executed line by line.
+ 2. Python is not suitable to use under the limited memory restrictions. Python 
+    structures need more memory space.
+ 3. Database layers are less comparative when compared with standard database layers
+     ODBC and JDBC.
+ 4. Python is not so strong with mobile computing
+ 5. Python is not easy to test
+
+Ans.4 = python is used for different domains such as Artificial Intelligence, machine learning,
+ Data scientist, Data Analyst , developing websites and software, task Automation, web server 
+ side development but It is not considered ideal for mobile app development and game development 
+ due to the consumption of more memory and its slow processing speed while compared to other
+ programming languages.
+
+Ans.5 = In python there is no command or no need to decalre a variable. Variables is only a name
+  given to a memory location, all the operations done on the variable effects that memory location.
+ we declare only the assign value we put into the variable like (int, str, float) and after we
+ check which type of data we assign in variable using "type" function. 
+
+Ans. 6 = In python we take input like this. 
+first = input("enter your name")
+age = input("enter your age")
+print("your name is:", first)
+print("your age is:",(age))
+
+Ans. 7 = The default data type of the value that has been taken as an input using input() function
+  is "string". By default, input returns a string. So the name and age will be stored as strings. 
+
+Ans.8 = In python type casting means that when we convert one data type to another data type like
+ int to float, float to int etc 
+ for example =
+a = int("10")
+b = float("10.0")
+casted_a = float(a)
+casted_b = int(b)
+print(casted_a)
+print(casted_b)
+
+Ans.9 = 
+Fname, Lname, age = input("enter your Fname, Lname, age:").split(",")
+print("username:", Fname,Lname,age)
+
+Ans.10 = Keywords are some predefined and reserved words in python that have special meanings.
+ Keywords are used to define the syntax of the coding. The keyword cannot be used as an
+ identifier, function, and variable name. All the keywords in python are written in lower case 
+ except True and False.
+
+Ans.11 = Keywords are used to define the syntax of the coding. The keyword cannot be used as 
+ an identifier, function, and variable name . keyword is the part of syntax in programming that
+ have special meaning to the compiler so thats the reason we cannot use the keyword as a variable
+ if we use a keyword as a variable our code will not run ,code will show an error. 
+
+Ans.12 = Indentation refers to the spaces and tabs at the start of a code line. In python always
+ give you an error and your code will not get run if you skip the identation
+ for example:=
+
+institute = input("enter your institute:")
+if institute == 'ineuron':
+    print('Logging in !!')
+else:
+    print('invalid institute.')
+
+print('All done!')
+
+Ans.13 = In Python, we use the print() function to output data to the screen. Sometimes we might 
+ want to take the input from the user. We can do by using the input() function.
+
+ Ans.14 = there are many type of operator in python like Arthematic operator, logical operator,
+ comparison operator etc they are used to perform values and variables. 
+
+ Ans.15 = In Python programming, we can use division in two ways. The first one is Float Division
+ ("/") like value in decimal form and the second is Integer Division("//") value in normal digit. 
+
+Ans.16 = 
+name = ("ineuron")
+print(name * 5)
+
+Ans.17 = 
+number = int(input("enter your number "))
+
+if (number % 2) == 0:
+    print("the number is even")
+
+else:
+    print("the number is odd")    
+
+Ans.18 = The logical operators and, or and not are also referred to as boolean operators. While 
+ and as well as or operator needs two operands, which may evaluate to true or false, not operator
+ needs one operand evaluating to true or false.
+Boolean and operator returns true if both operands return true.
+Boolean or operator returns true if any one operand is true
+The not operator returns true if its operand is a false expression and returns false if it is true.
+
+Ans.19 = 
+FALSE
+TRUE
+FALSE
+TRUE
+
+Ans.20 = A conditional statement is that the name suggests itself, is used to handle conditions in 
+ your program. These statements guide the program while making decisions based on the conditions 
+ encountered by the program.
+ python has 3 conditional statement (If , else, elif)
+
+Ans.21 = if statement
+If the condition following the keyword if evaluates as true, the block of code will execute. 
+ Note that parentheses are not used before and after the condition check as in other languages.
+else statement
+You can optionally add an else response that will execute if the condition is false
+elif statement
+Multiple conditions can be checked by including one or more elif checks after your initial if 
+ statement. 
+
+Ans.22 = 
+age = int(input("enter your age:"))
+if age >=18:
+        print("i can vote")
+
+else:
+    print("you are a child")   
+
+Ans.23 = 
+l=[12, 75, 150, 180, 145, 525, 50]
+sum=0
+for i in l:
+    if i%2==0:
+        sum+=i
+print(sum)
+
+Ans.24 = 
+a = int(input("enter your first no.:"))
+b = int(input("enter your second no.:"))
+c = int(input("enter your third no.:"))
+
+if (a>=b) and (a>=c):
+    print(a)
+
+elif (b>=a) and (b>=c):
+    print(b)   
+
+else:
+    print(c)
+
+
+Ans.25 = 
+numbers = [12, 75, 150, 180, 145, 525, 50]
+for i in numbers:
+    if i > 500:
+        break
+    elif i > 150:
+        continue
+    elif i % 5 == 0:
+        print(i)
